@@ -34,8 +34,8 @@ class App{
   }
   static void printlnUsage(){
     System.out.print("Usage");
-    System.out.println("Java calculator = [mu/div/add/sub] FirstNum SecondNum");
+    System.out.println(" Java calculator [mu/div/add/sub] FirstNum SecondNum");
     System.out.print("Example");
-    System.out.println("div 1 9");
+    System.out.println(" Java calculator div 1 9");
   }
 }
