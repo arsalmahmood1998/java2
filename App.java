@@ -25,6 +25,9 @@ class App{
         else if(args[0].equals("sub")){
           System.out.println(firstNum-secondNum);
         }
+        else{
+          printlnUsage();
+        }
       }
       catch(NumberFormatException exp){
         System.out.println("Incorrect num was given");
